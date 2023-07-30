@@ -6,7 +6,7 @@ import os
 # Creating an instance of the Flask class: The Flask() constructor is used to create an instance of the Flask class and assign it to the app variable.
 # Setting OpenAI API key: The OpenAI API key is set using os.getenv() function that retrieves the value of the environment variable "OPENAI_API_KEY".
 app = Flask(__name__)
-openai.api_key =  "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"
+openai.api_key =  "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"
 
 # Defining routes: The app has three routes: '/' (the default route), '/answer', and '/download'.
 # Index route: The index route ('/') renders a template called "index.html" using the render_template() function.
